@@ -1,0 +1,18 @@
+{
+  "post":{
+  "action_add": ["^/*esrs/v1/devices/UNITY/(?P<serialNumber>((?!/).)+$)"],
+  "action_keep_alive": ["^/*esrs/v1/devices/UNITY/(?P<serialNumber>((?!/).)+)/keepalive$"],
+  "action_keep_alive2": ["^/*esrs/v2/devices/UNITY/(?P<serialNumber>((?!/).)+)/keepalive$"],
+  "action_connect_home": ["^/*esrs/v1/devices/UNITY/(?P<serialNumber>((?!/).)+)/connectemc$"]
+  },
+  "get":{
+  "action_status": ["^/*esrs/v1/devices/UNITY/(?P<serialNumber>((?!/).)+$)"],
+  "action_download_file": ["^/*esrs/v1/devices/UNITY/(?P<serialNumber>((?!/).)+)/mft/getfiles/list$"]
+  },
+  "delete":{
+      "action_delete": ["^/*esrs/v1/devices/UNITY/(?P<serialNumber>((?!/).)+$)"]
+  },
+"put":{
+    "action_mft_file": ["^/*esrs/v1/devices/UNITY/(?P<serialNumber>((?!/).)+)/mft/((?!/).)+$","^/*esrs/v1/devices/UNITY/(?P<serialNumber>((?!/).)+)/connectemc$"]
+  }
+}

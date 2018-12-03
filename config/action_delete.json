@@ -1,0 +1,13 @@
+{
+  "head": {
+    "errorCode": "200",
+    "Content-Type": "application/json"
+  },
+  "body": {
+    "message": "Request Approved",
+    "serialNumber": "#",
+    "model": "UNITY",
+    "responseCode": 0
+  }
+}
+

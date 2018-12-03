@@ -1,0 +1,16 @@
+{
+  "head": {
+    "errorCode": "200",
+    "Content-Type": "application/json"
+  },
+  "body": {
+    "serialNumber": "#",
+    "model": "UNITY",
+    "ipAddress": "10.103.73.220",
+    "deviceStatus": "Online",
+    "deviceState": "Managed",
+    "validationCode": "0",
+    "validationError": "",
+    "responseCode": 0
+  }
+}

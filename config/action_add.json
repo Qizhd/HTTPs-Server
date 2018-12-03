@@ -1,0 +1,15 @@
+{
+	"head": {
+		"errorCode":"201",
+		"Content-Type": "application/json"
+	},
+	"body": {
+		"message": "Request Approved",
+		"serialNumber": "#",
+		"gatewaySerialNumber": "ELMESR0618DDFS",
+		"veType": "Connected",
+		"model": "UNITY",
+		"deviceKey": "#",
+		"responseCode": 201
+	}
+}

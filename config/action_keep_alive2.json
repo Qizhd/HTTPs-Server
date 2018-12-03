@@ -1,0 +1,16 @@
+{
+  "head": {
+    "errorCode": "200",
+    "Content-Type": "application/json"
+  },
+  "body": {
+    "productStatus": "Online",
+    "productSN": "#",
+    "productModel": "UNITY",
+    "veStatus": "Online",
+    "veVersion": "3.28.00.06",
+    "veSN": "ELMESR07182K2C",
+    "scriptRequests": []
+  }
+}
+
